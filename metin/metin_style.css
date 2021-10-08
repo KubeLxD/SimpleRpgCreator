@@ -1,0 +1,80 @@
+body
+{
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+}
+
+#tytul
+{
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 70px;
+    color: white;
+}
+
+#obraz
+{
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#postac
+{
+    float: left;
+    width: 55%;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 310px;
+}
+
+p
+{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+#stats
+{
+    float: left;
+    width: 45%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+#eq
+{
+    float: left;
+    width: 55%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#napis
+{
+    float: left;
+    width: 45%;
+    height: 50px;
+    text-align: center;
+}
+
+#napis1
+{
+    float: left;
+    width: 55%;
+    height: 50px;
+    text-align: center;
+}
