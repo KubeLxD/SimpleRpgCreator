@@ -1,0 +1,75 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="fallout_style.css"/>
+	<script src="fallout.js"></script>
+</head>
+<body>
+	
+	<div class="main">
+		<!----Lewy---->
+		<div class="lewy">
+			<div id="punkty">Punkty: 5</div>
+		</div>
+		
+		<!----Prawy---->
+		<div class="prawy">
+			<div class="napis">
+			
+			
+				Strength&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.jeden').stepDown(); plus()" id="btnplus">-</button>
+				<input type="number" value=5 min=0  class="jeden" id="jeden"/>
+				<button onclick="this.parentNode.querySelector('.jeden').stepUp(); minus()" id="btnminus">+</button>
+				<hr>
+				
+				
+				Perception&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.dwa').stepDown(); plus()" id="btnplus2">-</button>
+				<input type="number" value=5 min=0  class="dwa" id="dwa"/>
+				<button onclick="this.parentNode.querySelector('.dwa').stepUp(); minus()" id="btnminus2">+</button>
+				<hr>
+				
+				
+				Endurance&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.trzy').stepDown(); plus()" id="btnplus3">-</button>
+				<input type="number" value=5 min=0  class="trzy" id="trzy"/>
+				<button onclick="this.parentNode.querySelector('.trzy').stepUp(); minus()" id="btnminus3">+</button>
+				<hr>
+				
+				
+				Charisma&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.cztery').stepDown(); plus()" id="btnplus4">-</button>
+				<input type="number" value=5 min=0  class="cztery" id="cztery"/>
+				<button onclick="this.parentNode.querySelector('.cztery').stepUp(); minus()" id="btnminus4">+</button>
+				<hr>
+				
+				
+				Intelligence
+				<button onclick="this.parentNode.querySelector('.piec').stepDown(); plus()" id="btnplus5">-</button>
+				<input type="number" value=5 min=0  class="piec" id="piec"/>
+				<button onclick="this.parentNode.querySelector('.piec').stepUp(); minus()" id="btnminus5">+</button>
+				<hr>
+				
+				
+				Agility&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.szesc').stepDown(); plus()" id="btnplus6">-</button>
+				<input type="number" value=5 min=0  class="szesc" id="szesc"/>
+				<button onclick="this.parentNode.querySelector('.szesc').stepUp(); minus()" id="btnminus6">+</button>
+				<hr>
+				
+				
+				Luck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onclick="this.parentNode.querySelector('.siedem').stepDown(); plus()" id="btnplus7">-</button>
+				<input type="number" value=5 min=0  class="siedem" id="siedem"/>
+				<button onclick="this.parentNode.querySelector('.siedem').stepUp(); minus()" id="btnminus7">+</button>
+				<hr>
+				
+				<input type="submit" value="Confirm" onclick="stats()"/>
+				
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

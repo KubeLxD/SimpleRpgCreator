@@ -1,0 +1,77 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("bookself.jpg");
+}
+
+.main
+{
+	width:800px;
+	height:565px;
+	background-image: url("book.png");
+	margin-top:10%;
+	margin-left:30%;	
+}
+
+.lewy
+{
+	float:left;
+	width:350px;
+	height:540px;
+	text-align:center;
+	margin-left:35px;
+	margin-top:5px;
+
+}
+
+#punkty
+{
+	font-size:28px;
+	margin-top:30px;
+	letter-spacing:5px;
+}
+
+.prawy
+{
+	float:left;
+	width:350px;
+	height:540px;
+	text-align:center;
+	margin-left:15px;
+	margin-top:5px;	
+
+}
+
+.napis
+{
+	font-size:27px;
+	margin-top:30px;
+	letter-spacing:3px;
+}
+
+input[type="submit"]
+{
+	font-size:20px;
+}
+
+input[type="number"]
+{
+	width:40px;
+	text-align:center;
+	margin: 0;
+	border-radius:50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button
+{
+	background:transparent;
+	border:none;
+	font-size:20px;
+}
